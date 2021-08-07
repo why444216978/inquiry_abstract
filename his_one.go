@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// hisOneAdapter hisOne适配器
 type hisOneAdapter struct {
 	his hisOne
 }
@@ -15,6 +16,7 @@ func (h *hisOneAdapter) register(ctx context.Context, orderCode string) (err err
 	return
 }
 
+// hisOne hisOne逻辑
 type hisOne struct{}
 
 func (*hisOne) register(ctx context.Context, orderCode string) (err error) {

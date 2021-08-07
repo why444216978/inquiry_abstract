@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// consultation 收费咨询业务实现
 type consultation struct {
 	Inquiry
 }

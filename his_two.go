@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+// hisTwoAdapter hisTwo适配器
 type hisTwoAdapter struct {
 	his hisTwo
 }
@@ -17,6 +18,7 @@ func (h *hisTwoAdapter) register(ctx context.Context, _orderCode string) (err er
 	return
 }
 
+// hisTwo hisTwo逻辑
 type hisTwo struct{}
 
 func (*hisTwo) register(ctx context.Context, orderCode int) (err error) {

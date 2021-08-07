@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// freeDiagnose 免费问诊业务实现
 type freeDiagnose struct {
 	Inquiry
 }

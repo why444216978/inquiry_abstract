@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// diagnose 收费复诊业务实现
 type diagnose struct {
 	Inquiry
 }

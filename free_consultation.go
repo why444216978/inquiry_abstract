@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// freeConsultation 免费咨询业务实现
 type freeConsultation struct {
 	Inquiry
 }

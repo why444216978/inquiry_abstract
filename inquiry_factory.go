@@ -21,6 +21,7 @@ var (
 	FreeDiagnose     InquiryInterface
 )
 
+// init Inquiry单例
 func init() {
 	Consultation = &consultation{}
 	FreeConsultation = &freeConsultation{}
@@ -28,6 +29,7 @@ func init() {
 	FreeDiagnose = &freeDiagnose{}
 }
 
+// NewInquiry Inquiry工厂
 func NewInquiry(ctx context.Context, typ uint8, price int) (obj InquiryInterface, err error) {
 	obj = Consultation
 

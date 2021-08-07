@@ -19,11 +19,13 @@ var (
 	HisTwo HisInterface
 )
 
+// init HIS单例
 func init() {
 	HisOne = &hisOneAdapter{}
 	HisTwo = &hisTwoAdapter{}
 }
 
+// NewHis HIS工厂
 func NewHis(ctx context.Context, hisCode string) (his HisInterface, err error) {
 	switch hisCode {
 	case HisCodeOne:
