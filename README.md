@@ -2,7 +2,6 @@
  * @Descripttion:
  * @Author: AirGo
 -->
-<img src="https://github.com/why444216978/images/blob/master/qrcode.png" width="300" height="100" alt="公众号"/>
 
 # inquiry_abstract
 灵活使用四种常见的设计模式，抽象和解耦复杂的医疗问诊业务。
